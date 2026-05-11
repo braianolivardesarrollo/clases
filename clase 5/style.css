@@ -1,0 +1,11 @@
+p{
+    color: blue;
+}
+.parrafo-diferente:hover{
+    color: brown;
+}
+.button{
+    color: blue;
+    padding: 12px;
+    background-color: aqua;
+}
