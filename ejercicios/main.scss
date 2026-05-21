@@ -1,0 +1,35 @@
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+    strong{
+        color: yellow;
+    }
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.contact-button{
+    background-color: coral;
+    padding: 12px;
+    border-radius: 80px;
+    text-decoration: none;
+    color: antiquewhite;
+
+    &:hover{
+        color: blue;
+    }
+
+}
