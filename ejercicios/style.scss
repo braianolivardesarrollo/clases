@@ -1,0 +1,26 @@
+@use "./patials/base/reset"
+@use "./patials/base/tipografia"
+h1{
+color: red;
+}
+h2{
+    color: blue;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    
+    li{
+        list-style: none;
+    };
+}
+
+.contact-button {
+    background-color: coral;
+padding: 12px;
+border-radius: 30px;
+    &:hover{
+        color: blueviolet;
+    }
+}
