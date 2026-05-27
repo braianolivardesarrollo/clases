@@ -1,0 +1,24 @@
+@use "../components/variables";
+
+h1 {
+    color: variables.$primary-brand-700;
+}
+h2 {
+    color: rgb(169, 15, 133);
+    strong {
+        color: yellow;
+    }
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+}
