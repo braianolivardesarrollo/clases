@@ -21,4 +21,18 @@
   display: block;
 }
 
+.imageninicio {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.logo {
+  margin: 0px;
+  padding: 0px;
+  width: 250px;
+  height: auto;
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */
