@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .pantalla {
   min-height: 100vh;
   margin: 0;
@@ -47,6 +48,19 @@
 .quienessomos {
   min-height: 100vh;
   background: linear-gradient(to bottom, rgb(244, 241, 156), white);
+}
+
+.trabajos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  gap: 16px; /* separación */
+}
+
+.trabajos img {
+  width: 100%;
+  height: 180px; /* tamaño fijo */
+  object-fit: cover; /* recorta para no deformar */
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
