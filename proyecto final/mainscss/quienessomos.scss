@@ -6,17 +6,22 @@
     height: auto;
     display: block;
 }
+.contenido2{
+  flex: 1;
+}
 .titulo-inicial{
 align-items: center;
 min-height: 10vh;
 text-align: center;
 padding: 20px 18px;
 display: inline-block;
+display: flex;
+flex-direction: column;
 margin: 60px;
 }
 .quienessomos{
     min-height: 100vh;
-    background: linear-gradient(to bottom, rgb(244, 241, 156), white);
+    background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
 .trabajos{
   display: grid;
